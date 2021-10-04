@@ -33,7 +33,7 @@ public class FrontControllerServletV5 extends HttpServlet {
         initHandlerAdapters();
     }
 
-    private boolean initHandlerAdapters() {
+    private void initHandlerAdapters() {
         handlerAdapters.add(new ControllerV3HandlerAdapter());
         handlerAdapters.add(new ControllerV4HandlerAdapter());
 
